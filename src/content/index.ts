@@ -1,0 +1,1 @@
+console.debug("[veloxGoogle] initialized");
