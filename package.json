@@ -1,0 +1,11 @@
+{
+  "name": "veloxGoogle",
+  "version": "0.0.0",
+  "description": "Google Search cleanifier extension",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  }
+}
