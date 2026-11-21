@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "veloxGoogle",
+  "version": "0.0.0",
+  "description": "Cleanup of distracting elements on Google Search result pages.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.*/search*"
+      ],
+      "js": ["content/main.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

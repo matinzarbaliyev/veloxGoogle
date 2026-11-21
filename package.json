@@ -5,7 +5,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp -r public/* dist/ && cp -r src/styles dist/",
+    "watch": "tsc --watch",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
